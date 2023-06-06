@@ -10,3 +10,5 @@ En la versión final podemos ver un programa concurrente controlado por un monit
 Para conseguirlo se diseña una clase con todas las variables necesarias y una serie de funciones que se encargan de controlar si hay o no peatones o coches en el puente, en qué dirección y cuándo debe entrar cada uno de ellos en el puente para asegurar la seguridad.
 
 Además, se establece una entrada por turnos que nos garantiza la ausencia de inanición y la justicia. Estos turnos se establecen de forma que ninguno de los elementos que pueden entrar en el puente, coches del norte, coches del sur o peatones, puedan aliarse entre ellos para no dejar paso al otro.
+
+Al ejecutar el archivo de python se devuelve el tránsito del puente
